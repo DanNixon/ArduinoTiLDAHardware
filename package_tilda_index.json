@@ -1,37 +1,46 @@
 {
-	"packages": [
-		{
-			"name": "EMF TiLDA (Arduino core)",
-			"maintainer": "Dan Nixon",
-			"websiteURL": "https://github.com/DanNixon/ArduinoTiLDAHardware",
-			"email": "dan@dan-nixon.com",
-			"help": {
-				"online": "https://github.com/DanNixon/ArduinoTiLDAHardware/issues"
-			},
-			"platforms": [
-				{
-					"name": "TiLDA",
-					"architecture": "sam",
-					"version": "0.1.1",
-					"category": "Contributed",
-					"url": "https://github.com/DanNixon/ArduinoTiLDAHardware/releases/download/v0.1.1/package_tilda_0.1.1.tar",
-					"archiveFileName": "package_tilda_0.1.1.tar",
-					"checksum": "SHA-256:95a8d37357e24375bff984658727b82eaa5b3dd45eac18c21c7f51f095ae4564",
-					"size": "458240",
-					"help": {
-						"online": "https://github.com/DanNixon/ArduinoTiLDAHardware/issues"
-					},
-					"boards": [
-						{
-							"name": "TiLDA MKe v0.2 (Arduino Core)"
-						},
-						{
-							"name": "TiLDA MKe v0.333 (Arduino Core)"
-						}
-					]
-				}
-			],
-			"tools": []
-		}
-	]
+  "packages":[
+    {
+      "name":"EMF TiLDA (Arduino core)",
+      "maintainer":"Dan Nixon",
+      "websiteURL":"https://github.com/DanNixon/ArduinoTiLDAHardware",
+      "email":"dan@dan-nixon.com",
+      "help":{
+        "online":"https://github.com/DanNixon/ArduinoTiLDAHardware/issues"
+      },
+      "platforms":[
+        {
+          "name":"TiLDA",
+          "architecture":"sam",
+          "version":"0.1.1",
+          "category":"Contributed",
+          "url":"https://github.com/DanNixon/ArduinoTiLDAHardware/releases/download/v0.1.1/package_tilda_0.1.1.tar",
+          "archiveFileName":"package_tilda_0.1.1.tar",
+          "checksum":"SHA-256:95a8d37357e24375bff984658727b82eaa5b3dd45eac18c21c7f51f095ae4564",
+          "size":"458240",
+          "help":{
+            "online":"https://github.com/DanNixon/ArduinoTiLDAHardware/issues"
+          },
+          "boards":[
+            {"name":"TiLDA MKe v0.2 (Arduino Core)"},
+            {"name":"TiLDA MKe v0.333 (Arduino Core)"}
+          ],
+          "toolsDependencies":[
+            {
+              "packager":"arduino",
+              "name":"arm-none-eabi-gcc",
+              "version":"4.8.3-2014q1"
+            },
+            {
+              "packager":"arduino",
+              "name":"bossac",
+              "version":"1.3a-arduino"
+            }
+          ]
+        }
+      ],
+      "tools":[
+      ]
+    }
+  ]
 }
