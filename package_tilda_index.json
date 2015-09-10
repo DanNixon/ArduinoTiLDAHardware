@@ -12,11 +12,11 @@
 				{
 					"name": "TiLDA",
 					"architecture": "sam",
-					"version": "0.1.0",
+					"version": "0.1.1",
 					"category": "Contributed",
-					"url": "https://github.com/DanNixon/ArduinoTiLDAHardware/releases/download/v0.1.0/package_tilda_0.1.0.tar",
-					"archiveFileName": "package_tilda_0.1.0.tar",
-					"checksum": "SHA-256:a5d152da5bb7f3e65e3291403d997a833842ec05f2077b144ef6ef610d355357",
+					"url": "https://github.com/DanNixon/ArduinoTiLDAHardware/releases/download/v0.1.1/package_tilda_0.1.1.tar",
+					"archiveFileName": "package_tilda_0.1.1.tar",
+					"checksum": "SHA-256:95a8d37357e24375bff984658727b82eaa5b3dd45eac18c21c7f51f095ae4564",
 					"size": "458240",
 					"help": {
 						"online": "https://github.com/DanNixon/ArduinoTiLDAHardware/issues"
